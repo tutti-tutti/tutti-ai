@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.api.api import router
+from app.api.router import router
 
 app = FastAPI(
     title="🛍️ 쇼핑몰 리뷰 감성 분석 API",

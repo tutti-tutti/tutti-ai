@@ -8,7 +8,7 @@ object_dir = os.path.join(project_root, "object")
 # 전역 모델 객체
 vectorizer = None
 clf = None
-current_model_name = "default"  # 기본값
+current_model_name = "default"  # 감성 분석 예측 모델 v1
 
 def load_model(model_name: str = ""):
     """
