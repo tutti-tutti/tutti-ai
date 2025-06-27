@@ -12,9 +12,9 @@ app = FastAPI(
 - 리뷰 키워드 추출
 - 통계 조회 (월별, 주차별, 감정 분포 등)
 """,
-    version="1.0.0",
+    version="0.0.2",
     contact={
-        "name": "Boseok",
+        "name": "Boseok Lee",
         "url": "https://github.com/leeboseok",
         "email": "boseok.lee@hotmail.com",
     }
