@@ -4,7 +4,9 @@
 
 # Joblib or pickle cache files
 *.joblib
+!object/*.joblib
 *.pkl
+!object/*.pkl
 
 # 추가로 생성될 수 있는 임시 파일
 .ipynb_checkpoints
